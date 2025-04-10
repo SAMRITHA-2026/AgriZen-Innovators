@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgriZen Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 AgriZen Smart Dashboard</h1>
+
+    <section class="card">
+      <h2>✅ Final Recommended Crops</h2>
+      <ul id="recommended-crops"></ul>
+    </section>
+
+    <section class="card">
+      <h2>📈 Top Trending Crops</h2>
+      <table id="trending-crops">
+        <thead>
+          <tr>
+            <th>Crop</th>
+            <th>Demand Index</th>
+            <th>Market Price (per ton)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>♻️ Sustainable Crops</h2>
+      <ul id="sustainable-crops"></ul>
+    </section>
+
+    <section class="card">
+      <h2>🔮 Prediction Summary</h2>
+      <p><strong>Sustainability Score:</strong> <span id="sustainability-score"></span></p>
+      <p><strong>Predicted Crop Yield:</strong> <span id="predicted-yield"></span></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
